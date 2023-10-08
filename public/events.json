@@ -1,0 +1,86 @@
+{
+    "events": [
+      {
+        "name": "STEM Expo",
+        "description": "A science, technology, engineering, and mathematics (STEM) expo where students can showcase their STEM projects, experiments, and innovations. It's a great way to encourage interest in STEM fields.",
+        "icon": "https://i.ibb.co/D9FrHkX/image.png", 
+        "details":"Inspiring Exploration: Our STEM Expo is a gateway to a world of discovery. Participants get hands-on access to cutting-edge technology, engaging experiments, and innovative projects. It's an opportunity to explore the wonders of STEM in a fun and interactive environment."
+
+      },
+      {
+        "name": "Career Fair",
+        "description": "Invite professionals from various industries to talk about their careers and provide insights to students. This helps students explore potential career paths.",
+        "icon": "https://i.ibb.co/c3FkRVN/image.png" 
+        
+      },
+      {
+        "name": "Book Fair",
+        "description": "Organize a book fair with a wide range of books for students to explore. You can also invite authors for book signings and readings.",
+        "icon": "https://i.ibb.co/7zwDfGr/image.png" 
+      },
+      {
+        "name": "Science Fair",
+        "description": "Encourage students to conduct science experiments and present their findings. This promotes critical thinking and scientific inquiry.",
+        "icon": "https://i.ibb.co/rt7dxfg/image.png" 
+      },
+      {
+        "name": "Art Exhibition",
+        "description": "Showcase student artwork and creations. This can include paintings, sculptures, photography, and more. It's a great way to celebrate creativity.",
+        "icon": "https://i.ibb.co/2k77gVp/image.png" 
+      },
+      {
+        "name": "Coding Camp",
+        "description": "Offer coding workshops or camps to introduce students to programming and computer science. Coding is an essential skill in today's world.",
+        "icon": "https://i.ibb.co/D96v2ST/image.png" 
+      },
+      {
+        "name": "Environmental Awareness Day",
+        "description": "Teach students about environmental issues and conservation through workshops, outdoor activities, and guest speakers.",
+        "icon": "https://i.ibb.co/tsKyyFj/image.png" 
+      },
+      {
+        "name": "Math Olympics",
+        "description": "Organize math competitions and quizzes to challenge students' mathematical abilities. Recognize and reward the top performers.",
+        "icon": "https://i.ibb.co/1bbjXJK/image.png" 
+      },
+      
+      {
+        "name": "Debate Competition",
+        "description": "Promote critical thinking and public speaking skills by hosting a debate competition on relevant topics.",
+        "icon": "https://i.ibb.co/gMBGsST/image.png" 
+      },
+      {
+        "name": "College and Career Workshops",
+        "description": "Invite college representatives and career counselors to provide guidance to students on college applications, scholarships, and career planning.",
+        "icon": "https://i.ibb.co/QHB972z/image.png" 
+      },
+      {
+        "name": "Health and Wellness Day",
+        "description": "Promote physical and mental well-being through activities like yoga sessions, nutrition workshops, and stress management talks.",
+        "icon": "https://i.ibb.co/sb4tdwy/image.png" 
+      },
+      {
+        "name": "History Fair",
+        "description": "Encourage students to explore and present historical research projects and artifacts related to different time periods or events.",
+        "icon": "https://i.ibb.co/18XY3sd/image.png" 
+      },
+      {
+        "name": "Innovation Challenge",
+        "description": "Challenge students to come up with innovative solutions to real-world problems. This can include inventions, apps, or business proposals.",
+        "icon": "https://i.ibb.co/MShPZqV/image.png"
+      },
+      {
+        "name": "Music and Performing Arts Showcase",
+        "description": "Provide a platform for students to perform music, dance, theater, and other forms of performing arts.",
+        "icon": "https://i.ibb.co/px83x5M/image.png" 
+      },
+      
+      {
+        "name": "Parent-Teacher Conferences",
+        "description": "Host regular parent-teacher conferences to keep parents informed about their child's progress and educational needs.",
+        "icon": "https://i.ibb.co/YZ9RHWF/image.png" 
+      }
+      
+    ]
+  }
+  
