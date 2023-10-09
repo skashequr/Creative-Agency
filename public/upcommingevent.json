@@ -1,0 +1,23 @@
+[
+     
+      {
+        "title": "Online Workshop: STEM Education Innovations",
+        "description": "Discover the latest innovations in STEM education in this interactive online workshop. Learn from industry experts and educators about exciting new approaches to teaching science, technology, engineering, and math.",
+        "date": "2023-10-28",
+        "image": "workshop-image-2.jpg"
+      },
+      {
+        "title": "Virtual Panel Discussion: Inclusive Education Practices",
+        "description": "Join our virtual panel discussion on inclusive education practices. Gain insights from educators, advocates, and policymakers on promoting diversity, equity, and inclusion in the classroom.",
+        "date": "2023-11-10",
+        "image": "panel-image-2.jpg"
+      },
+      {
+        "title": "Conference: The Future of EdTech 2024",
+        "description": "Mark your calendar for our annual EdTech conference! Explore emerging trends in educational technology, attend hands-on workshops, and network with leading EdTech innovators.",
+        "date": "2024-01-20",
+        "image": "conference-image-2.jpg"
+      }
+   
+]
+  

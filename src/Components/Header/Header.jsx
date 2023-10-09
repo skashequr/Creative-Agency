@@ -75,9 +75,9 @@ export const Header = () => {
             />
           </h2>
           <p className="pr-5 mb-5 text-base text-gray-700 md:text-lg">
-          Increase reach, engagement, registrations, and revenue across your institution's entire events program for
-           students, parents, alumni, or staff with an end-to-end event technology platform powered by Bizzabo and 
-           Lumos StepUp.
+          Welcome to Creative Agency - Your Partner in Educational Event Excellence!
+
+At Creative Agency, we are passionate about education and dedicated to making every educational event a resounding success. With a team of experienced professionals, we have been organizing and managing educational events that inspire, educate, and empower both students and educators.
           </p>
 
           <div className="flex items-center">
