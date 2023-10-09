@@ -33,11 +33,12 @@ const Navbar = () => {
               ? "rounded-md bg-black p-2 text-white"
               : "text-white"
           }
-          to="/profile"
+          to="/about"
         >
-          Profile
+          About Us
         </NavLink>
-        <NavLink
+       { user ?
+       <NavLink
           className={({ isActive, isPending }) =>
             isPending
               ? "pending"
@@ -45,10 +46,12 @@ const Navbar = () => {
               ? "rounded-md bg-black p-2 text-white"
               : "text-white"
           }
-          to="/portfolios"
+          to="/geallary"
         >
-          Portfolios
+          Geallary
         </NavLink>
+        : " "
+        }
         {
           user?
           <NavLink

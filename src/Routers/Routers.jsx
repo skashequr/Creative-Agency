@@ -10,6 +10,7 @@ import PrivetRoute from "../Components/PrivetRoute/PrivetRoute";
 import ErrorPage from "../Pages/ErrorPage";
 import Support from "../Pages/Support/Support";
 import Geallary from "../Pages/Grallary/Geallary";
+import { Feature } from "../Pages/About/About";
 
 
  export const router = createBrowserRouter([
@@ -36,8 +37,12 @@ import Geallary from "../Pages/Grallary/Geallary";
           loader: () => fetch("/supporters.json")
         },
         {
-          path: "/portfolios",
+          path: "/geallary",
           element: <Geallary></Geallary>,
+        },
+        {
+          path: "/about",
+          element: <Feature></Feature>
         },
         {
           path: "/productDetails/Detail/:id",

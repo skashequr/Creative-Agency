@@ -6,8 +6,11 @@ import { AuthContext } from '../../AuthProvider/AuthProvider';
 
 const Support = () => {
     const support = useLoaderData()
-    const {user} = useContext(AuthContext)
+    const {user , lodding } = useContext(AuthContext)
     console.log(support)
+    if (lodding) {
+      return <div className="flex justify-center items-center mt-36"><span className="loading loading-ring text-[#543E93]  h-80 w-80 loading-xs"></span></div>
+  }
     if (!user) {
         return <Navigate to="/login"></Navigate>
     }
@@ -47,7 +50,7 @@ const Support = () => {
               </svg>
               <span className="relative">Welcome</span>
             </span>{' '}
-            our talented team of professionals
+            Creative Agency Community
           </h2>
           <p className="text-base text-gray-700 md:text-lg">
             Sed ut perspiciatis unde omnis iste natus error sit voluptatem
