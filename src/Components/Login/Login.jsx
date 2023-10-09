@@ -14,6 +14,7 @@ const Login = () => {
   const notify2 = () => toast('Successfully Password login done!');
   const location = useLocation()
 
+
   // Function to handle Google login
   const googleLoginHandling = () => {
     googleLogin()
@@ -22,7 +23,7 @@ const Login = () => {
       notify();
       setError('');
       setTimeout(() => {
-        navigate("/");
+        navigate(location?.state ? location.state : "/");
       }, 2000); 
     })
       .catch((error) => {

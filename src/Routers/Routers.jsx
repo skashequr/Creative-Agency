@@ -8,6 +8,8 @@ import SignUp from "../Components/SingUp/SignUp";
 import ProductDetails from "../Components/ProductDetails/ProductDetails";
 import PrivetRoute from "../Components/PrivetRoute/PrivetRoute";
 import ErrorPage from "../Pages/ErrorPage";
+import Support from "../Pages/Support/Support";
+import Geallary from "../Pages/Grallary/Geallary";
 
 
  export const router = createBrowserRouter([
@@ -27,6 +29,15 @@ import ErrorPage from "../Pages/ErrorPage";
         {
           path: "/signup",
           element: <SignUp></SignUp>
+        },
+        {
+          path: "/support",
+          element: <Support></Support>,
+          loader: () => fetch("/supporters.json")
+        },
+        {
+          path: "/portfolios",
+          element: <Geallary></Geallary>,
         },
         {
           path: "/productDetails/Detail/:id",

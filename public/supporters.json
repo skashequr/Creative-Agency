@@ -1,0 +1,74 @@
+[
+  {
+    "name": "John Doe",
+    "contactNumber": "+1 (123) 456-7890",
+    "fbLink": "https://www.facebook.com/johndoe",
+    "twitterLink": "https://twitter.com/johndoe",
+    "jobPost": "Software Engineer",
+    "imgLink": "https://images.pexels.com/photos/2381069/pexels-photo-2381069.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260",
+    "shortBio": "Passionate software engineer with a love for coding and problem-solving."
+  },
+  {
+    "name": "Jane Smith",
+    "contactNumber": "+1 (234) 567-8901",
+    "fbLink": "https://www.facebook.com/janesmith",
+    "twitterLink": "https://twitter.com/janesmith",
+    "jobPost": "Graphic Designer",
+    "imgLink": "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=3&amp;h=750&amp;w=1260",
+    "shortBio": "Creative graphic designer who brings ideas to life through visual storytelling."
+  },
+  {
+    "name": "Alice Johnson",
+    "contactNumber": "+1 (345) 678-9012",
+    "fbLink": "https://www.facebook.com/alicejohnson",
+    "twitterLink": "https://twitter.com/alicejohnson",
+    "jobPost": "Marketing Manager",
+    "imgLink": "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260",
+    "shortBio": "Experienced marketing manager focused on building brand awareness and engagement."
+  },
+  {
+    "name": "Bob Anderson",
+    "contactNumber": "+1 (456) 789-0123",
+    "fbLink": "https://www.facebook.com/bobanderson",
+    "twitterLink": "https://twitter.com/bobanderson",
+    "jobPost": "Product Manager",
+    "imgLink": "https://images.pexels.com/photos/3747435/pexels-photo-3747435.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260",
+    "shortBio": "Innovative product manager dedicated to creating user-centric solutions."
+  },
+  {
+    "name": "Eva Williams",
+    "contactNumber": "+1 (567) 890-1234",
+    "fbLink": "https://www.facebook.com/evawilliams",
+    "twitterLink": "https://twitter.com/evawilliams",
+    "jobPost": "Data Scientist",
+    "imgLink": "https://images.pexels.com/photos/3785077/pexels-photo-3785077.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260",
+    "shortBio": "Data scientist passionate about uncovering insights from complex datasets."
+  },
+  {
+    "name": "Michael Clark",
+    "contactNumber": "+1 (678) 901-2345",
+    "fbLink": "https://www.facebook.com/michaelclark",
+    "twitterLink": "https://twitter.com/michaelclark",
+    "jobPost": "UX Designer",
+    "imgLink": "https://images.pexels.com/photos/3931603/pexels-photo-3931603.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260",
+    "shortBio": "User experience designer dedicated to crafting seamless and intuitive designs."
+  },
+  {
+    "name": "Olivia Brown",
+    "contactNumber": "+1 (789) 012-3456",
+    "fbLink": "https://www.facebook.com/oliviabrown",
+    "twitterLink": "https://twitter.com/oliviabrown",
+    "jobPost": "Accountant",
+    "imgLink": "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=3&amp;h=750&amp;w=1260",
+    "shortBio": "Detail-oriented accountant with a passion for numbers and financial analysis."
+  },
+  {
+    "name": "David Lee",
+    "contactNumber": "+1 (890) 123-4567",
+    "fbLink": "https://www.facebook.com/davidlee",
+    "twitterLink": "https://twitter.com/davidlee",
+    "jobPost": "HR Manager",
+    "imgLink": "https://images.pexels.com/photos/3931553/pexels-photo-3931553.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260",
+    "shortBio": "HR manager committed to fostering a positive workplace culture."
+  }
+]

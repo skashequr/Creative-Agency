@@ -45,11 +45,13 @@ const Navbar = () => {
               ? "rounded-md bg-black p-2 text-white"
               : "text-white"
           }
-          to="/testimonials"
+          to="/portfolios"
         >
-          Contect
+          Portfolios
         </NavLink>
-        <NavLink
+        {
+          user?
+          <NavLink
           className={({ isActive, isPending }) =>
             isPending
               ? "pending"
@@ -57,10 +59,12 @@ const Navbar = () => {
               ? "rounded-md bg-black p-2 text-white"
               : "text-white"
           }
-          to="/sign-up"
+          to="/support"
         >
           Support
         </NavLink>
+        : ""
+        }
      
         <NavLink
           className={({ isActive, isPending }) =>
