@@ -2,36 +2,86 @@
     "events": [
       {
         "name": "STEM Expo",
+        "id" : "1",
         "description": "A science, technology, engineering, and mathematics (STEM) expo where students can showcase their STEM projects, experiments, and innovations. It's a great way to encourage interest in STEM fields.",
         "icon": "https://i.ibb.co/D9FrHkX/image.png", 
-        "details":"Inspiring Exploration: Our STEM Expo is a gateway to a world of discovery. Participants get hands-on access to cutting-edge technology, engaging experiments, and innovative projects. It's an opportunity to explore the wonders of STEM in a fun and interactive environment."
+        "details":"Inspiring Exploration: Our STEM Expo is a gateway to a world of discovery. Participants get hands-on access to cutting-edge technology, engaging experiments, and innovative projects. It's an opportunity to explore the wonders of STEM in a fun and interactive environment.",
+        "details1": "Learning Opportunities: Whether you're a student, educator, or a lifelong learner, our event offers a wealth of learning opportunities. Attend informative workshops, listen to inspiring guest speakers, and gain insights into the latest trends and developments in STEM fields.",
+        "details2": "Networking: Connect with like-minded individuals who share your passion for STEM. Our event brings together a diverse community of professionals, educators, students, and enthusiasts. Forge valuable connections that can open doors to future collaborations and opportunities.",
+        "details3": "Career Advancement: If you're a student or a young professional, our STEM Expo can provide a valuable platform to explore potential career paths. Engage with industry experts, learn about job opportunities, and discover the skills needed to succeed in STEM careers.",
+        "ratting": "5",
+        "pricing" : "445$",
+        "dtitle": "🚀 Discover Your Dream Career at STEM EXPO Fair 2023! 🚀"
+        
+
+
 
       },
       {
         "name": "Career Fair",
+        "id" : "2",
         "description": "Invite professionals from various industries to talk about their careers and provide insights to students. This helps students explore potential career paths.",
-        "icon": "https://i.ibb.co/c3FkRVN/image.png" 
+        "icon": "https://i.ibb.co/c3FkRVN/image.png" ,
+        "details":"Meet Industry Experts: Our Career Fair brings together professionals from a wide range of industries, from tech to healthcare, finance to creative arts. You'll have the chance to interact with seasoned experts who can provide invaluable insights into their respective fields.",
+        "details1": "Explore Endless Opportunities: Whether you're a recent graduate, a student exploring career options, or a professional looking for a change, our event offers a diverse array of career opportunities. Discover roles you never knew existed and find the perfect fit for your skills and aspirations.",
+        "details2": "Networking Galore: Forge connections that can shape your future! Connect with potential employers, industry leaders, and peers who share your interests. Networking is the key to opening doors to exciting career prospects.",
+        "details3": "Resume Building Workshops: Fine-tune your resume and interview skills with our hands-on workshops. Learn how to stand out in the job market and make a lasting impression on recruiters.",
+        "ratting": "3",
+        "pricing" : "325$",
+        "dtitle": "🚀 Discover Your Dream Career at Career Fair 2023! 🚀"
         
       },
       {
         "name": "Book Fair",
+        "id" : "3",
         "description": "Organize a book fair with a wide range of books for students to explore. You can also invite authors for book signings and readings.",
-        "icon": "https://i.ibb.co/7zwDfGr/image.png" 
+        "icon": "https://i.ibb.co/7zwDfGr/image.png" ,
+        "details":"Diverse Selection: We curate a wide range of books, from bestsellers to hidden gems, ensuring there's something for every reader's taste.",
+        "details1": "Meet Authors: Get the chance to meet and interact with your favorite authors. Gain insights into their work and the world of writing.",
+        "details2": "Educational Workshops: Participate in engaging workshops and discussions on various literary topics. Enhance your knowledge and critical thinking.",
+        "details3": "Family-Friendly: Our events are designed for readers of all ages. Bring your family and introduce the joy of reading to the next generation.",
+        "ratting": "4",
+        "pricing" : "625$",
+        "dtitle": "📚 Discover the World of Knowledge at Our Book Fairs! 📚"
       },
       {
         "name": "Science Fair",
+        "id" : "4",
         "description": "Encourage students to conduct science experiments and present their findings. This promotes critical thinking and scientific inquiry.",
-        "icon": "https://i.ibb.co/rt7dxfg/image.png" 
+        "icon": "https://i.ibb.co/rt7dxfg/image.png" ,
+        "details":"Hands-On Learning: Immerse yourself in interactive exhibits, experiments, and demonstrations that make science come alive. Get hands-on experience and see scientific principles in action.",
+        "details1": "Cutting-Edge Research: Discover the latest breakthroughs and innovations in the world of science. Connect with leading scientists and researchers who are shaping the future.",
+        "details2": "Inspiring Speakers: Hear from renowned scientists and thought leaders who will share their insights and discoveries. Be inspired by their stories and vision for the future.",
+        "details3": "Student Projects: Support young scientists as they showcase their projects and inventions. Witness the brilliance of the next generation of innovators.",
+        "ratting": "5",
+        "pricing" : "325$",
+        "dtitle": "🔬 Unlock the Wonders of Science at Our Science Fair Events! 🔬"
       },
       {
         "name": "Art Exhibition",
+        "id" : "5",
         "description": "Showcase student artwork and creations. This can include paintings, sculptures, photography, and more. It's a great way to celebrate creativity.",
-        "icon": "https://i.ibb.co/2k77gVp/image.png" 
+        "icon": "https://i.ibb.co/2k77gVp/image.png" ,
+        "details":"Diverse Artistry: Immerse yourself in a world of artistic diversity. Our exhibitions showcase a wide range of artistic styles, mediums, and genres, ensuring there's something to captivate every art lover.",
+        "details1": "Meet the Artists: Get the unique opportunity to meet and interact with talented artists. Gain insights into their creative process, inspirations, and the stories behind their artworks.",
+        "details2": "Inspiring Collections: Explore awe-inspiring collections from both emerging and established artists. Witness the evolution of art and experience thought-provoking themes.",
+        "details3": "Artistic Workshops: Participate in workshops led by accomplished artists. Learn new techniques, experiment with different mediums, and unlock your own artistic potential.",
+        "ratting": "5",
+        "pricing" : "600$",
+        "dtitle": "🎨 Unleash Your Creativity at Our Art Exhibition Events! 🎨"
       },
       {
         "name": "Coding Camp",
+        "id" : "6",
         "description": "Offer coding workshops or camps to introduce students to programming and computer science. Coding is an essential skill in today's world.",
-        "icon": "https://i.ibb.co/D96v2ST/image.png" 
+        "icon": "https://i.ibb.co/D96v2ST/image.png" ,
+        "details":"Hands-On Learning: Dive into immersive coding experiences. Our camps offer practical, hands-on learning where you'll build real projects and gain valuable skills.",
+        "details1": "Expert Instructors: Learn from industry experts and experienced instructors who are passionate about sharing their knowledge. Get insights from those who've been in the tech trenches.",
+        "details2": "Cutting-Edge Technologies: Stay at the forefront of technology. Explore the latest programming languages, tools, and frameworks used in the tech industry.",
+        "details3": "Project Showcase: Showcase your coding projects and collaborate with fellow campers. Get valuable feedback and build a portfolio to impress potential employers.",
+        "ratting": "3",
+        "pricing" : "650$",
+        "dtitle": "💻 Elevate Your Coding Skills at Our Coding Camps! 💻"
       },
       {
         "name": "Environmental Awareness Day",

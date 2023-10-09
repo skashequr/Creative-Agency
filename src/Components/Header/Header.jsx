@@ -3,7 +3,7 @@ import { TypeAnimation } from "react-type-animation";
 import Event from "../../Event/Event";
 export const Header = () => {
     const [events, setEvents] = useState([]);
-
+    const [up , setUp] =useState(false)
     useEffect(() => {
         const fetchData = async () => {
           try {
@@ -20,7 +20,10 @@ export const Header = () => {
     
         fetchData();
       }, []); 
-    console.log(events)
+    console.log(events) 
+    const handleSeeMore = () => {
+        setUp(!up)
+    }
   return (
     <div>
         <div className="relative flex flex-col-reverse py-16 lg:pt-0 lg:flex-col lg:pb-0">
@@ -98,10 +101,19 @@ export const Header = () => {
     <h1 className="text-4xl text-center font-bold mt-10 mb-10">Brouse Our Survices</h1>
     
     <div className="grid lg:grid-cols-3 flex justify-center items-center md:grid-col-2 grid-cols-1 gap-3">
-    {events.map((event, index) => (
-  <Event key={index} event={event} />
-))}
+    {
+  up
+    ? 
+    events.map((event, index) => (
+      <Event key={index} event={event} />
+    ))
+    : 
+      events.slice(0, 6).map((event, index) => (
+        <Event key={index} event={event} />
+      ))
+}
     </div>
+    <div className="flex justify-center items-center mt-4"><button onClick={handleSeeMore} className="btn btn-primary">See More</button></div>
     </div>
   );
 };

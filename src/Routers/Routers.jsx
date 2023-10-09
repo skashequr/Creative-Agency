@@ -6,12 +6,15 @@ import Home from "../Pages/Home/Home";
 import Login from "../Components/Login/Login";
 import SignUp from "../Components/SingUp/SignUp";
 import ProductDetails from "../Components/ProductDetails/ProductDetails";
+import PrivetRoute from "../Components/PrivetRoute/PrivetRoute";
+import ErrorPage from "../Pages/ErrorPage";
 
 
  export const router = createBrowserRouter([
     {
       path: "/",
       element: <MAinComponent></MAinComponent>,
+      errorElement: <ErrorPage></ErrorPage>,
       children: [
         {
             path: "/",
@@ -27,7 +30,7 @@ import ProductDetails from "../Components/ProductDetails/ProductDetails";
         },
         {
           path: "/productDetails/Detail/:id",
-          element: <ProductDetails></ProductDetails>,
+          element: <PrivetRoute><ProductDetails></ProductDetails></PrivetRoute>,
           loader: () => fetch('/events.json')
         }
       ]

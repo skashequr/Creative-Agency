@@ -9,11 +9,7 @@ const Navbar = () => {
     console.log(user)
     const signOut = ()=>{
       logOut()
-      .then(() => {
-    
-      }).catch((error) => {
-
-      });
+      
     }
     const navList = (
       <ul className="mb-4 mt-2 flex flex-col gap-2 text-inherit lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
@@ -87,31 +83,36 @@ const Navbar = () => {
       
     return (
         <div>
-             <div className="navbar bg-base-100">
-  <div className="flex-1">
-    <img className="h-24 w-24" src="https://i.ibb.co/D5gnGYw/image.png" alt="" />
-  </div>
-  <div className="flex-none">
-   
-    <div className="dropdown dropdown-end">
-      <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
-        <div className="w-10 rounded-full">
-          <img className="rounded-full h-full w-full" src="https://i.ibb.co/jRpgvCT/image.png" />
-        </div>
-      </label>
-      <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-        <li>
-          <a className="justify-between">
-            Profile
-            <span className="badge">New</span>
-          </a>
-        </li>
-        <li><a>Settings</a></li>
-        <li><Link onSubmit={signOut}>Logout</Link></li>
-      </ul>
-    </div>
-  </div>
-</div>
+          {
+            user?.email?
+            
+            <div className="navbar bg-base-100">
+            <div className="flex-1">
+              <img className="h-24 w-24" src="https://i.ibb.co/D5gnGYw/image.png" alt="" />
+            </div>
+            <div className="flex-none">
+             
+            <div className="dropdown dropdown-end">
+                <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
+                  <div className="w-10 rounded-full">
+                    <img className="rounded-full h-full w-full" src={user?.photoURL} />
+                  </div>
+                </label>
+                <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                  <li>
+                    <a className="justify-between">
+                      Profile
+                      <span className="badge">New</span>
+                    </a>
+                  </li>
+                  <li><a>Settings</a></li>
+                  <li><Link onClick={signOut}>Logout</Link></li>
+                </ul>
+              </div>
+            </div>
+                        </div>
+                        : " "
+          }
           <div className="navbar bg-[#543E93]">
         <div className="navbar-start">
           <div className="dropdown">
@@ -123,7 +124,7 @@ const Navbar = () => {
               
             </ul>
           </div>
-          <a className="btn btn-ghost normal-case text-xl">daisyUI</a>
+          <p className=" normal-case text-white text-xl">{user?user.displayName : "Creative Agency"}</p>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">

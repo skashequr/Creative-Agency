@@ -1,25 +1,30 @@
 import React, { useState, useContext } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { AuthContext } from '../../AuthProvider/AuthProvider';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 const Login = () => {
+  const navigate = useNavigate()
   const [error, setError] = useState('');
   const { googleLogin , loginbypass } = useContext(AuthContext);
-    console.log(loginbypass)
+    // console.log(loginbypass)
   // Function to show a success toast
   const notify = () => toast('Successfully Google login done!');
   const notify2 = () => toast('Successfully Password login done!');
+  const location = useLocation()
 
   // Function to handle Google login
   const googleLoginHandling = () => {
     googleLogin()
-      .then((result) => {
-        const user = result.user;
-        notify();
-        setError('');
-      })
+    .then((result) => {
+      const user = result.user;
+      notify();
+      setError('');
+      setTimeout(() => {
+        navigate("/");
+      }, 2000); 
+    })
       .catch((error) => {
         const errorMessage = error.message;
         setError(errorMessage);
@@ -32,12 +37,14 @@ const Login = () => {
     const password = e.target.password.value;
 
     loginbypass(email, password)
-      .then((userCredential) => {
-        const user = userCredential.user;
-        setError('');
-        notify2();
-        console.log(user)
-      })
+    .then((result) => {
+      const user = result.user;
+      notify2();
+      setError('');
+      setTimeout(() => {
+        navigate("/");
+      }, 2000); 
+    })
       .catch((error) => {
         const errorMessage = error.message;
         setError(errorMessage);
